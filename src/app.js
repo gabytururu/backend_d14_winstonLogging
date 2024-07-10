@@ -15,7 +15,8 @@ import passport from 'passport'
 import { initPassport } from './config/passport.config.js'; 
 import { config } from './config/config.js';
 import { errorHandler } from './middleware/errorHandler.js';
-import { loggerMiddleware } from './utils/logger.js';
+import { loggerMiddleware, appLogger } from './utils/logger.js';
+import { appLoggerDTO } from './DTO/appLoggerDTO.js';
 
 const PORT = config.PORT;
 const app = express();
@@ -54,7 +55,7 @@ app.use("/api/sessions", sessionsRouter)
 app.use(errorHandler)
 
 const server= app.listen(PORT, ()=>{
-    console.log(`listening on port ${PORT}`)
+    appLogger.info(`System Ready. Listening on port ${config.PORT}`)
 })
 
 const dbConnection = async()=>{
@@ -65,18 +66,16 @@ const dbConnection = async()=>{
                 dbName: config.DB_NAME
             }
         )
-        console.log('DB Conectada en puerto 8080 - ecommerce...!')
+        appLogger.info(`EcommerceApp: DB Conectada en puerto %s - Entorno '%s'`,config.PORT, config.ENVIRONMENT)
     }catch(err){
-        console.log('error al connectarse con la DB via puerto 8080:', err.message)
+        appLogger.error(`Error al connectarse con la DB via puerto ${config.PORT}`, new appLoggerDTO(err))
     }
 }
-
 dbConnection()
 
 const io= new Server(server)
-
 io.on("connection", socket=>{
-    console.log(`El cliente con id ${socket.id} se ha conectado al chat`)
+    appLogger.info(`El cliente con id %s se ha conectado al chat`,socket.id)
 
     socket.on("email", async email=>{
         let messages = await messagesModel.find()

@@ -24,7 +24,7 @@ const errorLevels={
 const customFormatErrSource = winston.format.printf(({source,...otherData})=>{
     let errorSource = `Error Originated from:${source}`
     if(otherData){
-        errorSource += `${JSON.stringify(otherData,null,2)}`
+        errorSource += `\nMeta: \n${JSON.stringify(otherData,null,2)}`
     }
     return errorSource
 })
@@ -39,7 +39,9 @@ const devLogger = winston.createLogger(
                     level:"debug",
                     format: winston.format.combine(
                         winston.format.colorize({colors:errorLevels.colors}),
-                        winston.format.simple()
+                        winston.format.splat(), 
+                        customFormatErrSource,
+                        winston.format.simple(),
                     )
                 }
             )
@@ -56,8 +58,7 @@ const prodLogger = winston.createLogger(
                     level:"info",
                     format: winston.format.combine(
                         winston.format.colorize({colors:errorLevels.colors}),
-                        winston.format.errors({stack:true}),
-                        winston.format.splat(), // to customize message sending
+                        winston.format.splat(), 
                         winston.format.simple()
                     )
                 }
@@ -68,11 +69,10 @@ const prodLogger = winston.createLogger(
                     filename:"./src/errors/errors.log",
                     format:winston.format.combine(
                         winston.format.timestamp(),
-                        winston.format.label({label:`Active environment: ${config.ENVIRONMENT}`}),
+                        winston.format.label({label:`Environment: ${config.ENVIRONMENT}`}),
                         winston.format.splat(),
-                        winston.format.errors({stack:true}),
-                        customFormatErrSource,                      
-                        winston.format.prettyPrint(),
+                       customFormatErrSource,                      
+                       winston.format.prettyPrint(),
                     )
                 }
             )
@@ -88,10 +88,6 @@ if(config.ENVIRONMENT === 'dev'){
 export const appLogger= logger
 export const loggerMiddleware=(req,res,next)=>{
     req.logger=logger
-
-    // const http=req.logger.http(`${req.method} en ${req.url} - ${new Date().toLocaleTimeString}`)
-    // console.log(http)
-
     next()
 }
 

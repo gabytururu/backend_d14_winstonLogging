@@ -2,43 +2,25 @@ import { productsService } from "../services/productsService.js";
 import { cartsService } from "../services/cartsService.js";
 import { ticketsService } from "../services/ticketsService.js";
 import { generateMockProduct } from "../utils.js";
+import { reqLoggerDTO } from "../DTO/reqLoggerDTO.js";
 
 export class VistasController{
 
     //loggerTest function
     static getLoggerTest=async(req,res)=>{
-
-        let userAgentIndex= req.rawHeaders.findIndex(el=> el==="User-Agent") + 1
-        let userAgent = req.rawHeaders[userAgentIndex]
-        console.log("el user Agent-->", userAgent)
-
+        req.logger.debug('testing debug logger',new reqLoggerDTO(req))
+        req.logger.http('testing info logger',new reqLoggerDTO(req))
+        req.logger.info('testing debug logger',new reqLoggerDTO(req))
+        req.logger.warning('testing warging logger',new reqLoggerDTO(req))
         
-        //next step to make this scalable ... DTO?? Sen request to dto y que el dto lo traduzca en el objeto source, userid, etc etc .. puedo hacer un metodo estatico que ahi mismo identifique el userAgent y cree el objeto
-        //posteriormente toca impelmentar en endpoints reales.. pero OJO bcas que el mensaje ya nosea testing sino que sea un mensaje vinculado al error real del custom handler o de la response!!! 
-        req.logger.debug('testing debug logger',{
-            source:`ReqMethod:${req.method}, endpoint ${req.url}`, 
-            user:`id#${req.session.user?req.session.user._id:`No User Logged`}, email:${req.session.user?req.session.user.email:`No User Logged`}` 
-        })
-        req.logger.http('testing info logger',{
-            source:`ReqMethod:${req.method}, endpoint ${req.url}`, 
-            user:`id#${req.session.user?req.session.user._id:`No User Logged`}, email:${req.session.user?req.session.user.email:`No User Logged`}` 
-        })
-        req.logger.info('testing debug logger',{
-            source:`ReqMethod:${req.method}, endpoint ${req.url}`, 
-            user:`id#${req.session.user?req.session.user._id:`No User Logged`}, email:${req.session.user?req.session.user.email:`No User Logged`}` 
-        })
-        req.logger.warning('testing warging logger',{
-            source:`ReqMethod:${req.method}, endpoint ${req.url}`, 
-            user:`id#${req.session.user?req.session.user._id:`No User Logged`}, email:${req.session.user?req.session.user.email:`No User Logged`}` 
-        })
-        req.logger.error('testing error logger',{
-            source:`ReqMethod:${req.method}, endpoint ${req.url}`, 
-            user:`id#${req.session.user?req.session.user._id:`No User Logged`}, email:${req.session.user?req.session.user.email:`No User Logged`}` 
-        })
-        req.logger.fatal('testing fatal logger',{
-            source:`ReqMethod:${req.method}, endpoint ${req.url}`, 
-            user:`id#${req.session.user?req.session.user._id:`No User Logged`}, email:${req.session.user?req.session.user.email:`No User Logged`}` 
-        })
+        try{
+            let test= await testFunction()
+            res.setHeader('Content-type', 'application/json');
+            return res.status(200).json({payload:test})
+        }catch(error){
+            req.logger.error('testing error logger',new reqLoggerDTO(req,error))
+            req.logger.fatal('testing fatal logger',new reqLoggerDTO(req,error))
+        }       
     }
 
     //mocking products function
