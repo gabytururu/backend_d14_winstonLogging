@@ -1,0 +1,26 @@
+[
+  {
+    "type": "TypeError",
+    "msg": "Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle",
+    "date": "Tue, 09 Jul 2024 21:27:30 GMT",
+    "user": "gallo",
+    "terminal": "DESKTOP-65AN4BL",
+    "id": 1
+  },
+  {
+    "type": "TypeError",
+    "msg": "Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle",
+    "date": "Tue, 09 Jul 2024 21:27:39 GMT",
+    "user": "gallo",
+    "terminal": "DESKTOP-65AN4BL",
+    "id": 2
+  },
+  {
+    "type": "TypeError",
+    "msg": "Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle",
+    "date": "Tue, 09 Jul 2024 21:28:56 GMT",
+    "user": "gallo",
+    "terminal": "DESKTOP-65AN4BL",
+    "id": 3
+  }
+]

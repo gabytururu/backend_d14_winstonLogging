@@ -1,0 +1,1204 @@
+{
+  message: 'testing fatal logger',
+  level: 'fatal',
+  timestamp: '2024-07-09T21:32:30.547Z'
+}
+{
+  message: 'testing fatal logger',
+  level: 'fatal',
+  timestamp: '2024-07-09T21:32:34.383Z'
+}
+{
+  message: 'testing error logger',
+  level: 'error',
+  timestamp: '2024-07-09T21:33:38.375Z'
+}
+{
+  message: 'testing fatal logger',
+  level: 'fatal',
+  timestamp: '2024-07-09T21:33:38.382Z'
+}
+{
+  message: 'testing error logger',
+  level: 'error',
+  timestamp: '2024-07-09T21:34:00.467Z'
+}
+{
+  message: 'testing fatal logger',
+  level: 'fatal',
+  timestamp: '2024-07-09T21:34:00.470Z'
+}
+{
+  message: 'testing error logger',
+  level: 'error',
+  timestamp: '2024-07-09T21:34:40.203Z'
+}
+{
+  message: 'testing fatal logger',
+  level: 'fatal',
+  timestamp: '2024-07-09T21:34:40.206Z'
+}
+{
+  message: 'testing error logger',
+  level: 'error',
+  timestamp: '2024-07-09T21:34:56.194Z'
+}
+{
+  message: 'testing fatal logger',
+  level: 'fatal',
+  timestamp: '2024-07-09T21:34:56.196Z'
+}
+{"level":"error","message":"testing error logger","timestamp":"2024-07-09T21:39:06.794Z"}
+{"level":"fatal","message":"testing fatal logger","timestamp":"2024-07-09T21:39:06.796Z"}
+{"level":"error","message":"testing error logger","timestamp":"2024-07-09T21:39:36.867Z"}
+{"level":"fatal","message":"testing fatal logger","timestamp":"2024-07-09T21:39:36.872Z"}
+{"level":"error","message":"testing error logger","timestamp":"2024-07-09T21:39:39.914Z"}
+{"level":"fatal","message":"testing fatal logger","timestamp":"2024-07-09T21:39:39.914Z"}
+{"level":"error","message":"testing error logger","timestamp":"2024-07-09T21:40:08.069Z"}
+{"level":"fatal","message":"testing fatal logger","timestamp":"2024-07-09T21:40:08.074Z"}
+{
+  message: 'testing error logger',
+  level: 'error',
+  timestamp: '2024-07-09T21:40:20.277Z'
+}
+{
+  message: 'testing fatal logger',
+  level: 'fatal',
+  timestamp: '2024-07-09T21:40:20.283Z'
+}
+{
+  message: 'testing error logger',
+  level: 'error',
+  timestamp: '2024-07-09T21:40:21.044Z'
+}
+{
+  message: 'testing fatal logger',
+  level: 'fatal',
+  timestamp: '2024-07-09T21:40:21.045Z'
+}
+{
+  message: 'testing error logger',
+  level: 'error',
+  timestamp: '2024-07-09T21:42:49.683Z',
+  label: undefined
+}
+{
+  message: 'testing fatal logger',
+  level: 'fatal',
+  timestamp: '2024-07-09T21:42:49.689Z',
+  label: undefined
+}
+{
+  message: 'testing error logger',
+  level: 'error',
+  timestamp: '2024-07-09T21:42:50.109Z',
+  label: undefined
+}
+{
+  message: 'testing fatal logger',
+  level: 'fatal',
+  timestamp: '2024-07-09T21:42:50.110Z',
+  label: undefined
+}
+{
+  message: 'testing error logger',
+  level: 'error',
+  timestamp: '2024-07-09T21:51:23.264Z',
+  label: 'la label'
+}
+{
+  message: 'testing fatal logger',
+  level: 'fatal',
+  timestamp: '2024-07-09T21:51:23.271Z',
+  label: 'la label'
+}
+{
+  message: 'testing error logger',
+  level: 'error',
+  timestamp: '2024-07-09T21:51:23.850Z',
+  label: 'la label'
+}
+{
+  message: 'testing fatal logger',
+  level: 'fatal',
+  timestamp: '2024-07-09T21:51:23.851Z',
+  label: 'la label'
+}
+{
+  message: 'testing error logger',
+  level: 'error',
+  timestamp: '2024-07-09T21:51:46.039Z',
+  label: 'la label'
+}
+{
+  message: 'testing fatal logger',
+  level: 'fatal',
+  timestamp: '2024-07-09T21:51:46.043Z',
+  label: 'la label'
+}
+{
+  message: 'testing error logger',
+  level: 'error',
+  timestamp: '2024-07-09T21:52:07.698Z',
+  label: 'la label'
+}
+{
+  message: 'testing fatal logger',
+  level: 'fatal',
+  timestamp: '2024-07-09T21:52:07.705Z',
+  label: 'la label'
+}
+{
+  message: 'testing error logger',
+  level: 'error',
+  timestamp: '2024-07-09T21:53:22.967Z',
+  label: 'la label'
+}
+{
+  message: 'testing fatal logger',
+  level: 'fatal',
+  timestamp: '2024-07-09T21:53:22.971Z',
+  label: 'la label'
+}
+{
+  message: 'testing error logger',
+  level: 'error',
+  timestamp: '2024-07-09T21:53:27.323Z',
+  label: 'la label'
+}
+{
+  message: 'testing fatal logger',
+  level: 'fatal',
+  timestamp: '2024-07-09T21:53:27.324Z',
+  label: 'la label'
+}
+{
+  message: 'testing error logger',
+  level: 'error',
+  timestamp: '2024-07-09T21:55:26.102Z',
+  label: 'la label'
+}
+{
+  message: 'testing fatal logger',
+  level: 'fatal',
+  timestamp: '2024-07-09T21:55:26.105Z',
+  label: 'la label'
+}
+{
+  message: 'testing error logger',
+  level: 'error',
+  timestamp: '2024-07-09T21:55:39.829Z',
+  label: 'la label'
+}
+{
+  message: 'testing fatal logger',
+  level: 'fatal',
+  timestamp: '2024-07-09T21:55:39.831Z',
+  label: 'la label'
+}
+{
+  label: 'la label',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T21:57:37.390Z'
+}
+{
+  message: 'testing fatal logger',
+  level: 'fatal',
+  timestamp: '2024-07-09T21:57:37.396Z',
+  label: 'la label'
+}
+{
+  label: 'la label',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T21:57:55.931Z'
+}
+{
+  message: 'testing fatal logger',
+  level: 'fatal',
+  timestamp: '2024-07-09T21:57:55.932Z',
+  label: 'la label'
+}
+{
+  label: 'la label',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T21:58:48.582Z'
+}
+{
+  message: 'testing fatal logger',
+  level: 'fatal',
+  timestamp: '2024-07-09T21:58:48.582Z',
+  label: 'la label'
+}
+{
+  label: 'la label',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T21:59:30.037Z'
+}
+{
+  label: 'la label',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T21:59:30.040Z'
+}
+{
+  label: 'la label',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T22:00:40.149Z'
+}
+{
+  label: 'la label',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T22:00:40.155Z'
+}
+Error Originated from:Source: GET endpoint /loggerTest{
+  "level": "error",
+  "message": "testing error logger",
+  "timestamp": "2024-07-09T22:57:05.835Z",
+  "label": "Active environment: prod"
+}
+Error Originated from:Source: GET endpoint /loggerTest{
+  "level": "fatal",
+  "message": "testing fatal logger",
+  "timestamp": "2024-07-09T22:57:05.840Z",
+  "label": "Active environment: prod"
+}
+{
+  source: 'Source: GET endpoint /loggerTest',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T22:58:52.540Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'Source: GET endpoint /loggerTest',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T22:58:52.547Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: undefined,
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:02:00.119Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: undefined,
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:02:00.121Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: undefined,
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:02:03.661Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: undefined,
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:02:03.662Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: undefined,
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:02:16.985Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: undefined,
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:02:16.987Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: {
+    _id: '665fb9d12dd584169ef757aa',
+    first_name: 'gaby',
+    last_name: 'hoil',
+    email: 'gabriela@test.com',
+    age: 40,
+    cart: {
+      _id: '665fb9d12dd584169ef757a8',
+      products: [
+        {
+          pid: '663d257960f80adeaa82bba0',
+          qty: 1,
+          _id: '667a0698d4f58cf72543a1eb'
+        },
+        {
+          pid: '663d206d60f80adeaa82bb6a',
+          qty: 1,
+          _id: '667a0699d4f58cf72543a1ec'
+        },
+        {
+          pid: '663d209960f80adeaa82bb73',
+          qty: 2,
+          _id: '667a0699d4f58cf72543a1ed'
+        }
+      ],
+      createdAt: '2024-06-05T01:05:21.077Z',
+      updatedAt: '2024-06-24T23:51:52.981Z',
+      __v: 0
+    },
+    rol: 'user',
+    createdAt: '2024-06-05T01:05:21.178Z',
+    updatedAt: '2024-06-05T01:05:21.178Z',
+    __v: 0,
+    isUser: true,
+    isAdmin: false,
+    isPublic: false
+  },
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:03:03.480Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: {
+    _id: '665fb9d12dd584169ef757aa',
+    first_name: 'gaby',
+    last_name: 'hoil',
+    email: 'gabriela@test.com',
+    age: 40,
+    cart: {
+      _id: '665fb9d12dd584169ef757a8',
+      products: [
+        {
+          pid: '663d257960f80adeaa82bba0',
+          qty: 1,
+          _id: '667a0698d4f58cf72543a1eb'
+        },
+        {
+          pid: '663d206d60f80adeaa82bb6a',
+          qty: 1,
+          _id: '667a0699d4f58cf72543a1ec'
+        },
+        {
+          pid: '663d209960f80adeaa82bb73',
+          qty: 2,
+          _id: '667a0699d4f58cf72543a1ed'
+        }
+      ],
+      createdAt: '2024-06-05T01:05:21.077Z',
+      updatedAt: '2024-06-24T23:51:52.981Z',
+      __v: 0
+    },
+    rol: 'user',
+    createdAt: '2024-06-05T01:05:21.178Z',
+    updatedAt: '2024-06-05T01:05:21.178Z',
+    __v: 0,
+    isUser: true,
+    isAdmin: false,
+    isPublic: false
+  },
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:03:03.482Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: {
+    _id: '665fb9d12dd584169ef757aa',
+    first_name: 'gaby',
+    last_name: 'hoil',
+    email: 'gabriela@test.com',
+    age: 40,
+    cart: {
+      _id: '665fb9d12dd584169ef757a8',
+      products: [
+        {
+          pid: '663d257960f80adeaa82bba0',
+          qty: 1,
+          _id: '667a0698d4f58cf72543a1eb'
+        },
+        {
+          pid: '663d206d60f80adeaa82bb6a',
+          qty: 1,
+          _id: '667a0699d4f58cf72543a1ec'
+        },
+        {
+          pid: '663d209960f80adeaa82bb73',
+          qty: 2,
+          _id: '667a0699d4f58cf72543a1ed'
+        }
+      ],
+      createdAt: '2024-06-05T01:05:21.077Z',
+      updatedAt: '2024-06-24T23:51:52.981Z',
+      __v: 0
+    },
+    rol: 'user',
+    createdAt: '2024-06-05T01:05:21.178Z',
+    updatedAt: '2024-06-05T01:05:21.178Z',
+    __v: 0,
+    isUser: true,
+    isAdmin: false,
+    isPublic: false
+  },
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:04:26.068Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: {
+    _id: '665fb9d12dd584169ef757aa',
+    first_name: 'gaby',
+    last_name: 'hoil',
+    email: 'gabriela@test.com',
+    age: 40,
+    cart: {
+      _id: '665fb9d12dd584169ef757a8',
+      products: [
+        {
+          pid: '663d257960f80adeaa82bba0',
+          qty: 1,
+          _id: '667a0698d4f58cf72543a1eb'
+        },
+        {
+          pid: '663d206d60f80adeaa82bb6a',
+          qty: 1,
+          _id: '667a0699d4f58cf72543a1ec'
+        },
+        {
+          pid: '663d209960f80adeaa82bb73',
+          qty: 2,
+          _id: '667a0699d4f58cf72543a1ed'
+        }
+      ],
+      createdAt: '2024-06-05T01:05:21.077Z',
+      updatedAt: '2024-06-24T23:51:52.981Z',
+      __v: 0
+    },
+    rol: 'user',
+    createdAt: '2024-06-05T01:05:21.178Z',
+    updatedAt: '2024-06-05T01:05:21.178Z',
+    __v: 0,
+    isUser: true,
+    isAdmin: false,
+    isPublic: false
+  },
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:04:26.073Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: {
+    _id: '665fb9d12dd584169ef757aa',
+    first_name: 'gaby',
+    last_name: 'hoil',
+    email: 'gabriela@test.com',
+    age: 40,
+    cart: {
+      _id: '665fb9d12dd584169ef757a8',
+      products: [
+        {
+          pid: '663d257960f80adeaa82bba0',
+          qty: 1,
+          _id: '667a0698d4f58cf72543a1eb'
+        },
+        {
+          pid: '663d206d60f80adeaa82bb6a',
+          qty: 1,
+          _id: '667a0699d4f58cf72543a1ec'
+        },
+        {
+          pid: '663d209960f80adeaa82bb73',
+          qty: 2,
+          _id: '667a0699d4f58cf72543a1ed'
+        }
+      ],
+      createdAt: '2024-06-05T01:05:21.077Z',
+      updatedAt: '2024-06-24T23:51:52.981Z',
+      __v: 0
+    },
+    rol: 'user',
+    createdAt: '2024-06-05T01:05:21.178Z',
+    updatedAt: '2024-06-05T01:05:21.178Z',
+    __v: 0,
+    isUser: true,
+    isAdmin: false,
+    isPublic: false
+  },
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:04:33.578Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: {
+    _id: '665fb9d12dd584169ef757aa',
+    first_name: 'gaby',
+    last_name: 'hoil',
+    email: 'gabriela@test.com',
+    age: 40,
+    cart: {
+      _id: '665fb9d12dd584169ef757a8',
+      products: [
+        {
+          pid: '663d257960f80adeaa82bba0',
+          qty: 1,
+          _id: '667a0698d4f58cf72543a1eb'
+        },
+        {
+          pid: '663d206d60f80adeaa82bb6a',
+          qty: 1,
+          _id: '667a0699d4f58cf72543a1ec'
+        },
+        {
+          pid: '663d209960f80adeaa82bb73',
+          qty: 2,
+          _id: '667a0699d4f58cf72543a1ed'
+        }
+      ],
+      createdAt: '2024-06-05T01:05:21.077Z',
+      updatedAt: '2024-06-24T23:51:52.981Z',
+      __v: 0
+    },
+    rol: 'user',
+    createdAt: '2024-06-05T01:05:21.178Z',
+    updatedAt: '2024-06-05T01:05:21.178Z',
+    __v: 0,
+    isUser: true,
+    isAdmin: false,
+    isPublic: false
+  },
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:04:33.580Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#665fb9d12dd584169ef757aa, email:gabriela@test.com',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:05:08.651Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#665fb9d12dd584169ef757aa, email:gabriela@test.com',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:05:08.656Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#665fb9d12dd584169ef757aa, email:gabriela@test.com',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:05:10.331Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#665fb9d12dd584169ef757aa, email:gabriela@test.com',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:05:10.331Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#665fb9d12dd584169ef757aa, email:gabriela@test.com',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:06:15.416Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#665fb9d12dd584169ef757aa, email:gabriela@test.com',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:06:15.420Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#665fb9d12dd584169ef757aa, email:gabriela@test.com',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:06:19.852Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#665fb9d12dd584169ef757aa, email:gabriela@test.com',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:06:19.853Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#665fb9d12dd584169ef757aa, email:gabriela@test.com',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:06:24.280Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#665fb9d12dd584169ef757aa, email:gabriela@test.com',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:06:24.284Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:33:33.435Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:33:33.439Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:35:31.281Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:35:31.286Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:37:15.577Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:37:15.579Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:37:17.074Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:37:17.076Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:37:36.432Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:37:36.437Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:39:50.659Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:39:50.659Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:45:22.216Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:45:22.218Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:45:30.081Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:45:30.082Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:48:24.780Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:48:24.784Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:48:36.985Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:48:36.988Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:48:37.429Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:48:37.430Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:48:57.231Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:48:57.233Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:48:58.112Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:48:58.112Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:50:56.418Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:50:56.420Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:50:57.463Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:50:57.463Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:51:01.910Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:51:01.911Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:51:35.982Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:51:35.984Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:51:43.110Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:51:43.112Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:52:34.745Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:52:34.747Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:53:45.948Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:53:45.950Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:56:11.949Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:56:11.951Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:56:15.172Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:56:15.172Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:57:11.726Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:57:11.726Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:57:27.433Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:57:27.434Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:57:29.872Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:57:29.872Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:58:09.254Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:58:09.255Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:58:11.185Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:58:11.186Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:58:38.051Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:58:38.052Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:58:38.517Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:58:38.517Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-09T23:59:15.392Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-09T23:59:15.395Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-10T00:00:03.264Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-10T00:00:03.272Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-10T00:04:46.173Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-10T00:04:46.178Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-10T00:34:28.230Z',
+  label: 'Active environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  user: 'id#No User Logged, email:No User Logged',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-10T00:34:28.236Z',
+  label: 'Active environment: prod'
+}
