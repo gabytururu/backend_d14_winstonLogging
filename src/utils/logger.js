@@ -59,6 +59,7 @@ const prodLogger = winston.createLogger(
                     format: winston.format.combine(
                         winston.format.colorize({colors:errorLevels.colors}),
                         winston.format.splat(), 
+                        customFormatErrSource,
                         winston.format.simple()
                     )
                 }
@@ -71,8 +72,8 @@ const prodLogger = winston.createLogger(
                         winston.format.timestamp(),
                         winston.format.label({label:`Environment: ${config.ENVIRONMENT}`}),
                         winston.format.splat(),
-                       customFormatErrSource,                      
-                       winston.format.prettyPrint(),
+                        customFormatErrSource,                      
+                        winston.format.prettyPrint(),
                     )
                 }
             )

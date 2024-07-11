@@ -69,7 +69,8 @@ export class VistasController{
                 userProfile
             })
         }catch(error){
-            res.setHeader('Content-type', 'application/json');
+            res.setHeader('Content-type', 'application/json');     
+            req.logger.error('Server error',new reqLoggerDTO(req,error))       
             return res.status(500).json({
                 error:`Unexpected server error (500) - try again or contact support`,
                 message: error.message
@@ -90,8 +91,12 @@ export class VistasController{
             const matchingProduct = await productsService.getProductBy({_id:pid})
             if(!matchingProduct){
                 res.setHeader('Content-type', 'application/json');
+
+                //THIS IS NOT WORKING!!! WHY??? FIND OUT WTF IS GOING ON!!
+                //req.logger.info('Client Bounced: Product with ID# %s was not found in our database. Please verify your ID# and try again',pid,new reqLoggerDTO(req))     
+
                 return res.status(404).json({
-                    error: `Product with ID#${id} was not found in our database. Please verify your ID# and try again`
+                    error: `Product with ID#${pid} was not found in our database. Please verify your ID# and try again`
                 })
             }
             res.setHeader('Content-type', 'text/html');

@@ -425,3 +425,971 @@
   timestamp: '2024-07-10T18:12:07.856Z',
   label: 'Environment: prod'
 }
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-10T23:07:29.765Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-10T23:07:29.773Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-10T23:07:36.895Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-10T23:07:36.897Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-10T23:07:39.432Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-10T23:07:39.437Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-10T23:09:28.568Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-10T23:09:28.571Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-10T23:09:49.968Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-10T23:09:49.970Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-10T23:09:53.174Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-10T23:09:53.178Z',
+  label: 'Environment: prod'
+}
+{
+  name: 'MongooseError',
+  cause: 'The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at NativeConnection.createClient (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:219:11)\n' +
+    '    at NativeConnection.openUri (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\connection.js:823:34)\n' +
+    '    at Mongoose.connect (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\mongoose.js:448:15)\n' +
+    '    at dbConnection (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/app.js:63:24)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/app.js:74:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:65:12)',
+  level: 'error',
+  message: 'Error al connectarse con la DB via puerto 8080',
+  timestamp: '2024-07-10T23:11:36.780Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-10T23:11:40.448Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-10T23:11:40.452Z',
+  label: 'Environment: prod'
+}
+{
+  name: 'MongooseError',
+  cause: 'The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at NativeConnection.createClient (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:219:11)\n' +
+    '    at NativeConnection.openUri (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\connection.js:823:34)\n' +
+    '    at Mongoose.connect (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\mongoose.js:448:15)\n' +
+    '    at dbConnection (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/app.js:63:24)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/app.js:74:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:65:12)',
+  level: 'error',
+  message: 'Error al connectarse con la DB via puerto 8080',
+  timestamp: '2024-07-10T23:21:27.805Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-10T23:21:31.478Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-10T23:21:31.480Z',
+  label: 'Environment: prod'
+}
+{
+  name: 'MongooseError',
+  cause: 'The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at NativeConnection.createClient (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:219:11)\n' +
+    '    at NativeConnection.openUri (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\connection.js:823:34)\n' +
+    '    at Mongoose.connect (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\mongoose.js:448:15)\n' +
+    '    at dbConnection (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/app.js:63:24)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/app.js:74:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:65:12)',
+  level: 'error',
+  message: 'Error al connectarse con la DB via puerto 8080',
+  timestamp: '2024-07-10T23:28:06.133Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-10T23:31:27.632Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-10T23:31:27.634Z',
+  label: 'Environment: prod'
+}
+{
+  name: 'MongooseError',
+  cause: 'The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at NativeConnection.createClient (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:219:11)\n' +
+    '    at NativeConnection.openUri (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\connection.js:823:34)\n' +
+    '    at Mongoose.connect (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\mongoose.js:448:15)\n' +
+    '    at dbConnection (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/app.js:63:24)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/app.js:74:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:65:12)',
+  level: 'error',
+  message: 'Error al connectarse con la DB via puerto 8080',
+  timestamp: '2024-07-11T00:05:17.134Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-11T00:05:19.159Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-11T00:05:19.161Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-11T00:05:20.532Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-11T00:05:20.534Z',
+  label: 'Environment: prod'
+}
+{
+  name: 'MongooseError',
+  cause: 'The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at NativeConnection.createClient (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:219:11)\n' +
+    '    at NativeConnection.openUri (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\connection.js:823:34)\n' +
+    '    at Mongoose.connect (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\mongoose.js:448:15)\n' +
+    '    at dbConnection (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/app.js:63:24)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/app.js:74:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:65:12)',
+  level: 'error',
+  message: 'Error al connectarse con la DB via puerto 8080',
+  timestamp: '2024-07-11T00:05:44.901Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-11T00:05:46.057Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-11T00:05:46.061Z',
+  label: 'Environment: prod'
+}
+{
+  name: 'MongooseError',
+  cause: 'The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at NativeConnection.createClient (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:219:11)\n' +
+    '    at NativeConnection.openUri (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\connection.js:823:34)\n' +
+    '    at Mongoose.connect (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\mongoose.js:448:15)\n' +
+    '    at dbConnection (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/app.js:63:24)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/app.js:74:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:65:12)',
+  level: 'error',
+  message: 'Error al connectarse con la DB via puerto 8080',
+  timestamp: '2024-07-11T00:07:24.828Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-11T00:07:26.148Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-11T00:07:26.153Z',
+  label: 'Environment: prod'
+}
+{
+  name: 'MongooseError',
+  cause: 'The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at NativeConnection.createClient (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:219:11)\n' +
+    '    at NativeConnection.openUri (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\connection.js:823:34)\n' +
+    '    at Mongoose.connect (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\mongoose.js:448:15)\n' +
+    '    at dbConnection (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/app.js:63:24)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/app.js:74:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:65:12)',
+  level: 'error',
+  message: 'Error al connectarse con la DB via puerto 8080',
+  timestamp: '2024-07-11T00:07:49.552Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'error',
+  message: 'testing error logger',
+  timestamp: '2024-07-11T00:07:53.110Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /loggerTest',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'testFunction is not defined',
+  stack: 'ReferenceError: testFunction is not defined\n' +
+    '    at getLoggerTest (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:17:23)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/middleware/auth.js:9:20\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:149:13)\n' +
+    '    at Route.dispatch (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\route.js:119:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:284:15\n' +
+    '    at Function.process_params (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\express\\lib\\router\\index.js:346:12)',
+  level: 'fatal',
+  message: 'testing fatal logger',
+  timestamp: '2024-07-11T00:07:53.114Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /products',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'MongooseError',
+  cause: 'Operation `products.countDocuments()` buffering timed out after 10000ms',
+  stack: 'MongooseError: Operation `products.countDocuments()` buffering timed out after 10000ms\n' +
+    '    at Timeout.<anonymous> (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:185:23)\n' +
+    '    at listOnTimeout (node:internal/timers:557:17)\n' +
+    '    at processTimers (node:internal/timers:500:7)',
+  level: 'error',
+  message: 'Server error',
+  timestamp: '2024-07-11T00:08:05.033Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /products',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'MongooseError',
+  cause: 'Operation `products.countDocuments()` buffering timed out after 10000ms',
+  stack: 'MongooseError: Operation `products.countDocuments()` buffering timed out after 10000ms\n' +
+    '    at Timeout.<anonymous> (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:185:23)\n' +
+    '    at listOnTimeout (node:internal/timers:557:17)\n' +
+    '    at processTimers (node:internal/timers:500:7)',
+  level: 'error',
+  message: 'Server error',
+  timestamp: '2024-07-11T00:08:15.643Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /products',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'MongooseError',
+  cause: 'Operation `products.countDocuments()` buffering timed out after 10000ms',
+  stack: 'MongooseError: Operation `products.countDocuments()` buffering timed out after 10000ms\n' +
+    '    at Timeout.<anonymous> (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:185:23)\n' +
+    '    at listOnTimeout (node:internal/timers:557:17)\n' +
+    '    at processTimers (node:internal/timers:500:7)',
+  level: 'error',
+  message: 'Server error',
+  timestamp: '2024-07-11T00:08:26.709Z',
+  label: 'Environment: prod'
+}
+{
+  name: 'MongooseError',
+  cause: 'The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at NativeConnection.createClient (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:219:11)\n' +
+    '    at NativeConnection.openUri (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\connection.js:823:34)\n' +
+    '    at Mongoose.connect (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\mongoose.js:448:15)\n' +
+    '    at dbConnection (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/app.js:63:24)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/app.js:74:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:65:12)',
+  level: 'error',
+  message: 'Error al connectarse con la DB via puerto 8080',
+  timestamp: '2024-07-11T00:09:17.230Z',
+  label: 'Environment: prod'
+}
+{
+  name: 'MongooseError',
+  cause: 'The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at NativeConnection.createClient (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:219:11)\n' +
+    '    at NativeConnection.openUri (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\connection.js:823:34)\n' +
+    '    at Mongoose.connect (D:\\Coding\\53140-backend\\codigo\\desafios\\desafiosEntregables\\d14_logging\\node_modules\\mongoose\\lib\\mongoose.js:448:15)\n' +
+    '    at dbConnection (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/app.js:63:24)\n' +
+    '    at file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/app.js:74:1\n' +
+    '    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)\n' +
+    '    at async loadESM (node:internal/process/esm_loader:88:5)\n' +
+    '    at async handleMainPromise (node:internal/modules/run_main:65:12)',
+  level: 'error',
+  message: 'Error al connectarse con la DB via puerto 8080',
+  timestamp: '2024-07-11T00:09:30.073Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /products',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'error is not defined',
+  stack: 'ReferenceError: error is not defined\n' +
+    '    at renderProducts (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:61:29)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  message: 'Server error',
+  timestamp: '2024-07-11T00:09:44.593Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /products',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'error is not defined',
+  stack: 'ReferenceError: error is not defined\n' +
+    '    at renderProducts (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:61:29)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  message: 'Server error',
+  timestamp: '2024-07-11T00:09:45.853Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /products',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'ReferenceError',
+  cause: 'error is not defined',
+  stack: 'ReferenceError: error is not defined\n' +
+    '    at renderProducts (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:61:29)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  message: 'Server error',
+  timestamp: '2024-07-11T00:09:49.788Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /products',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'Error',
+  cause: '',
+  stack: 'Error\n' +
+    '    at renderProducts (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:61:19)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  message: 'Server error',
+  timestamp: '2024-07-11T00:10:11.928Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /products',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'Error',
+  cause: '',
+  stack: 'Error\n' +
+    '    at renderProducts (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:61:19)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  message: 'Server error',
+  timestamp: '2024-07-11T00:10:17.533Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /products',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'Error',
+  cause: '',
+  stack: 'Error\n' +
+    '    at renderProducts (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:61:19)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  message: 'Server error',
+  timestamp: '2024-07-11T00:10:19.411Z',
+  label: 'Environment: prod'
+}
+{
+  source: 'ReqMethod:GET, endpoint /products',
+  userId: 'N/A: Public',
+  userEmail: 'N/A: Public',
+  userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  name: 'Error',
+  cause: '',
+  stack: 'Error\n' +
+    '    at renderProducts (file:///D:/Coding/53140-backend/codigo/desafios/desafiosEntregables/d14_logging/src/controller/vistasController.js:61:19)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+  level: 'error',
+  message: 'Server error',
+  timestamp: '2024-07-11T00:10:23.192Z',
+  label: 'Environment: prod'
+}

@@ -22,5 +22,21 @@
     "user": "gallo",
     "terminal": "DESKTOP-65AN4BL",
     "id": 3
+  },
+  {
+    "type": "MongooseError",
+    "msg": "Operation `users.findOne()` buffering timed out after 10000ms",
+    "date": "Thu, 11 Jul 2024 00:09:15 GMT",
+    "user": "gallo",
+    "terminal": "DESKTOP-65AN4BL",
+    "id": 4
+  },
+  {
+    "type": "MongooseError",
+    "msg": "Operation `users.findOne()` buffering timed out after 10000ms",
+    "date": "Thu, 11 Jul 2024 00:09:28 GMT",
+    "user": "gallo",
+    "terminal": "DESKTOP-65AN4BL",
+    "id": 5
   }
 ]
