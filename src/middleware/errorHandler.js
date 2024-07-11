@@ -4,14 +4,9 @@ import os from "os"
 import util from "util"
 import { ERROR_CODES } from "../utils/EErrors.js";
 import __dirname from '../utils.js'
-
-  
+import { reqLoggerDTO } from "../DTO/reqLoggerDTO.js";  
 
 export const errorHandler=async(error,req,res,next)=>{
-    const errorLogUrl= path.join(__dirname,'errors','errorlog.json')
-    const errorReason= error.cause?error.cause:error.message
-    const fullError = error
-   
     const errorDetails = {
         code:error.code,
         type: error.name,
@@ -22,18 +17,11 @@ export const errorHandler=async(error,req,res,next)=>{
         details: error.cause
     }
 
-    console.log(`New Error Registered. Identified Cause: ${util.inspect(errorDetails,{ depth: null, colors: false, breakLength: 80 })}`)
-
-    let errorLog =[]
-    if(fs.existsSync(errorLogUrl)){
-        errorLog = JSON.parse(await fs.promises.readFile(errorLogUrl,'utf-8'))
-        errorDetails.id = errorLog[errorLog.length - 1].id + 1
-    }else{
-        errorDetails.id = 1
+    let details={
+        ...errorDetails,
+        ...new reqLoggerDTO(req)
     }
-    
-    errorLog.push(errorDetails)
-    await fs.promises.writeFile(errorLogUrl,JSON.stringify(errorLog, null, 2))     
+    req.logger.warning(`New Custom Error triggered: \n`, {details})   
 
     switch(error.code){
         case ERROR_CODES.INVALID_ARGUMENTS:
@@ -42,8 +30,7 @@ export const errorHandler=async(error,req,res,next)=>{
                 code: `Error: ${ERROR_CODES.INVALID_ARGUMENTS}`,
                 error:`Cause: Invalid or Missing Arguments`,
                 type: `${error.name}`,
-                message: `${error.message}`,
-                
+                message: `${error.message}`,                
             })
         case ERROR_CODES.AUTENTICATION: 
             res.setHeader('Content-type', 'application/json');
@@ -87,4 +74,5 @@ export const errorHandler=async(error,req,res,next)=>{
             })
 
     }
+   
 }

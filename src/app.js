@@ -54,6 +54,14 @@ app.use("/api/sessions", sessionsRouter)
 
 app.use(errorHandler)
 
+process.on('uncaughtException',(error)=>{
+    appLogger.fatal('uncaught exception. Error: %s', error)
+})
+
+process.on('unhandledRejection',(reason,promise)=>{
+    appLogger.fatal('unhandled rejection \n promise:%s \n reason: %s',promise, reason)
+})
+
 const server= app.listen(PORT, ()=>{
     appLogger.info(`System Ready. Listening on port ${config.PORT}`)
 })

@@ -3,6 +3,7 @@ import { isValidObjectId } from 'mongoose';
 import { CustomError } from "../utils/CustomError.js";
 import { postMissingProperty, duplicatedCode, notFound } from "../utils/errorCauses.js";
 import { ERROR_CODES } from "../utils/EErrors.js";
+import { reqLoggerDTO } from "../DTO/reqLoggerDTO.js";
 
 export class ProductsController{
     static getProducts=async(req,res)=>{
@@ -30,6 +31,7 @@ export class ProductsController{
                 nextLink: hasNextPage ? `localhost:8080/api/products?pagina=${nextPage}` : 'No next page available'
             });
         }catch(error){
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
             return res.status(500).json({
                 status: 'Error',
                 error:`Unexpected server error - try again or contact support`,
@@ -51,15 +53,15 @@ export class ProductsController{
             if(!matchingProduct){         
                 return next(CustomError.createError(
                     "Resource not found", 
-                    notFound(id), 
+                    notFound(id,'id'), 
                     `Element tied to reference #${id} was not found`, 
                     ERROR_CODES.RESOURCE_NOT_FOUND
                 ))               
-            }
-              
+            }              
             return res.status(200).json({payload: matchingProduct})
         }catch(error){
-            next(error)
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
+            return next(error)
         }
     }
 
@@ -83,6 +85,7 @@ export class ProductsController{
                     try{
                         CustomError.createError("Missing Properties", postMissingProperty(prodToPost),`Property ${property} is missing`, ERROR_CODES.INVALID_ARGUMENTS)
                     }catch(error){
+                        req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
                         return next(error)
                     }                   
                 }            
@@ -94,6 +97,7 @@ export class ProductsController{
                 CustomError.createError("Duplicate Code", duplicatedCode(code),`Code ${code} is already registered and cannot be duplicated`, ERROR_CODES.INVALID_ARGUMENTS)
             }
         }catch(error){
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
             return next (error)
         }
     
@@ -103,6 +107,7 @@ export class ProductsController{
                 payload: newProduct
             })
         }catch(error){
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
             return res.status(500).json({
                 error:`Error - Server failed, please try again later`,
                 message: error.message
@@ -127,6 +132,7 @@ export class ProductsController{
                 })
             }
         }catch(error){
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
             return res.status(500).json({
                 error:`Error - Server failed, please try again later`,
                 message: error.message
@@ -150,6 +156,7 @@ export class ProductsController{
                     })
                 }
             } catch (error) {
+                req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
                 return res.status(500).json({
                     error:`Error - Server failed, please try again later`,
                     message: error.message
@@ -162,6 +169,7 @@ export class ProductsController{
             let updatedProduct = await productsService.updateProduct(id,propsToUpdate)
             return res.status(200).json({payload:updatedProduct})
         } catch (error) {
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
             return res.status(500).json({
                 error:`Error - Server failed, please try again later`,
                 message:error.message
@@ -177,17 +185,18 @@ export class ProductsController{
             return res.status(400).json({error:`The ID# provided is not an accepted Id Format in MONGODB database. Please verify your ID# and try again`})
         }
     
-        try {        
+        try {     
             let deletedProduct = await productsService.deleteProduct(id)
             if(!deletedProduct){
                 return res.status(404).json({
                     error: `Failed to delete product: the product you are trying to delete (ID#${id}) was not found in our database. Please verify your ID# and try again`,                
                 })
-            }
+            }           
             return res.status(200).json({
                 payload:deletedProduct
             })
         } catch (error) {
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
             return res.status(500).json({
                 error:`Error 500 Server failed unexpectedly, please try again later`,
                 message: `${error.message}`

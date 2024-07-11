@@ -4,6 +4,7 @@ import passport from "passport";
 import {customAuth} from '../middleware/auth.js'
 import { userDTO } from '../DTO/userDTO.js';
 import { UsersManagerMongo as UsersManager } from '../dao/usersManagerMONGO.js';
+import { reqLoggerDTO } from '../DTO/reqLoggerDTO.js';
 
 let usersManager = new UsersManager()
 
@@ -69,14 +70,6 @@ router.get('/current', customAuth(["user"]), async(req,res)=>{
     return res.status(200).json({
         status:'success',
         message: 'current user was obtained successfully',
-        // payload:{
-        //     nombre: currentUser.first_name,
-        //     apellido: currentUser.last_name,
-        //     edad: currentUser.age,
-        //     email: currentUser.email,
-        //     rol:currentUser.rol,
-        //     carrito:currentUser.cart
-        // }    
         payload:{
             fullName:currentUserDTO.fullName,
             email: currentUserDTO.email,
@@ -87,15 +80,13 @@ router.get('/current', customAuth(["user"]), async(req,res)=>{
 
 router.get('/users/:uid', customAuth(["public"]), async(req,res)=>{
     const { uid } = req.params
-
     const singleUser = await usersManager.getUserByFilter({_id:uid})
     
     res.setHeader('Content-type', 'application/json');
     return res.status(200).json({payload:singleUser})
 })
 
-router.get('/users', customAuth(["public"]), async(req,res)=>{
-    
+router.get('/users', customAuth(["public"]), async(req,res)=>{    
     const allUsers = await usersManager.getAllUsers()
 
     res.setHeader('Content-type', 'application/json');
@@ -105,6 +96,7 @@ router.get('/users', customAuth(["public"]), async(req,res)=>{
 router.put('/users/:uid/:orderTicket',customAuth(["user"]),async(req,res)=>{
     const {uid,orderTicket} =req.params   
     const updatedUser = await usersManager.addTicketToUser(uid,orderTicket)
+
     res.setHeader('Content-type', 'application/json');
     return res.status(200).json({payload:updatedUser})    
 })
@@ -113,6 +105,7 @@ router.get('/logout', customAuth(["user","admin"]),async(req,res)=>{
     req.session.destroy(error=>{
         if(error){
             res.setHeader('Content-type', 'application/json');
+            req.logger.error('Error triggered at LOGOUT',new reqLoggerDTO(req,error)) 
             return res.status(500).json({
                 error:`Error 500 Server failed unexpectedly, please try again later`,
                 message: `${error.message}`
@@ -131,6 +124,7 @@ router.get('/logout', customAuth(["user","admin"]),async(req,res)=>{
 
 router.get('/error',(req,res)=>{
     res.setHeader('Content-type', 'application/json');
+    req.logger.error('Error Redirect triggered by Github Strategy',new reqLoggerDTO(req)) 
     return res.status(500).json({
         error:`Error 500 Server failed unexpectedly, please try again later`,
         message: `Fallo al autenticar`

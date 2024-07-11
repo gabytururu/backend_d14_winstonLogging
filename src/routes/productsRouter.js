@@ -7,4 +7,4 @@ router.get('/', customAuth(["public","user","admin"]), ProductsController.getPro
 router.get('/:id',customAuth(["public","user","admin"]),ProductsController.getProductById)
 router.post('/',customAuth(["public","admin"]),ProductsController.postProduct)  
 router.put('/:id',customAuth(["admin"]),ProductsController.updateProduct)
-router.delete('/:id',customAuth(["admin"]),ProductsController.deleteProduct)
+router.delete('/:id',customAuth(["public","admin"]),ProductsController.deleteProduct)

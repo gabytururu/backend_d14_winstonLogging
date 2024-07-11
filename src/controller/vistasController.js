@@ -4,6 +4,7 @@ import { ticketsService } from "../services/ticketsService.js";
 import { generateMockProduct } from "../utils.js";
 import { reqLoggerDTO } from "../DTO/reqLoggerDTO.js";
 
+
 export class VistasController{
 
     //loggerTest function
@@ -56,7 +57,6 @@ export class VistasController{
     
         try{            
             const {docs:products,page,totalPages, hasPrevPage, hasNextPage, prevPage,nextPage} = await productsService.getProducts(query,{pagina,limit,sort})
-
             res.setHeader('Content-type', 'text/html');
             res.status(200).render('products',{
                 products,
@@ -70,7 +70,7 @@ export class VistasController{
             })
         }catch(error){
             res.setHeader('Content-type', 'application/json');     
-            req.logger.error('Server error',new reqLoggerDTO(req,error))       
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error))       
             return res.status(500).json({
                 error:`Unexpected server error (500) - try again or contact support`,
                 message: error.message
@@ -90,10 +90,8 @@ export class VistasController{
         try{
             const matchingProduct = await productsService.getProductBy({_id:pid})
             if(!matchingProduct){
-                res.setHeader('Content-type', 'application/json');
-
-                //THIS IS NOT WORKING!!! WHY??? FIND OUT WTF IS GOING ON!!
-                //req.logger.info('Client Bounced: Product with ID# %s was not found in our database. Please verify your ID# and try again',pid,new reqLoggerDTO(req))     
+                res.setHeader('Content-type', 'application/json'); 
+                req.logger.info('Client Bounced: Product with ID# %s was not found in our database. Please verify your ID# and try again',pid,new reqLoggerDTO(req))     
 
                 return res.status(404).json({
                     error: `Product with ID#${pid} was not found in our database. Please verify your ID# and try again`
@@ -103,6 +101,7 @@ export class VistasController{
             return res.status(200).render('singleProduct',{matchingProduct,userProfile})
         }catch(error){
             res.setHeader('Content-type', 'application/json');
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error))    
             return res.status(500).json({
                 error:`Unexpected server error (500) - try again or contact support`,
                 message: `${error.message}`
@@ -114,6 +113,7 @@ export class VistasController{
         try{           
             const carts = await cartsService.getCarts()
             if(!carts){
+                req.logger.info('Client Bounced: No carts were found',new reqLoggerDTO(req))     
                 return res.status(404).json({
                     error: `ERROR: resource not found`,
                     message: `No carts were found in our database, please try again later`
@@ -123,6 +123,7 @@ export class VistasController{
             return res.status(200).render('carts',{carts})
         }catch(error){
             res.setHeader('Content-type', 'application/json');
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error))       
             return res.status(500).json({
                 error:`Unexpected server error (500) - try again or contact support`,
                 message: error.message
@@ -137,6 +138,7 @@ export class VistasController{
         try{           
             const matchingCart = await cartsService.getCartById(cid)
             if(!matchingCart){
+                req.logger.info('Client Bounced:  Cart id# provided was not found',new reqLoggerDTO(req))  
                 return res.status(404).json({
                     error: `ERROR: Cart id# provided was not found`,
                     message: `Resource not found: The Cart id provided (id#${cid}) does not exist in our database. Please verify and try again`
@@ -146,6 +148,7 @@ export class VistasController{
             return res.status(200).render('singleCart',{matchingCart})
         }catch(error){
             res.setHeader('Content-type', 'application/json');
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
             return res.status(500).json({
                 error:`Error inesperado en servidor - intenta mas tarde`,
                 message: `${error.message}`
@@ -193,6 +196,7 @@ export class VistasController{
             const matchingTicket = await ticketsService.getPurchaseTicket({_id:tid})
             if(!matchingTicket){
                 res.setHeader('Content-type', 'application/json');
+                req.logger.info('Client Bounced:  Ticket id# provided was not found',new reqLoggerDTO(req))
                 return res.status(404).json({
                     error:`Error 400 Resource not found, please verify and try again`,
                     message: `${error.message}`
@@ -205,6 +209,7 @@ export class VistasController{
             })    
         }catch(error){
             res.setHeader('Content-type', 'application/json');
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
             return res.status(500).json({
                 error:`Unexpected server error (500) - try again or contact support`,
                 message: error.message

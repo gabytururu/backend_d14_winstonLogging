@@ -10,6 +10,7 @@ import { config } from '../config/config.js';
 import { CustomError } from "../utils/CustomError.js";
 import { invalidCartBody, notFound, notProcessed } from "../utils/errorCauses.js";
 import { ERROR_CODES } from "../utils/EErrors.js";
+import { reqLoggerDTO } from '../DTO/reqLoggerDTO.js';
 // import { TicketsMongoDAO } from '../dao/ticketsMongoDAO.js';
 
 const usersManager = new UsersManager()
@@ -27,6 +28,7 @@ export class CartsController{
             }             
             res.status(200).json({payload:carts})
         }catch(error){
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
             return res.status(500).json({
                 error:`Unexpected server error - try again or contact support`,
                 message: error.message
@@ -52,6 +54,7 @@ export class CartsController{
             }        
             return res.status(200).json({payload: matchingCart})
         } catch (error) {
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
             return res.status(500).json({
                 error:`Unexpected server error - try again or contact support`,
                 message: error.message
@@ -75,6 +78,7 @@ export class CartsController{
                 newCart
             })
         } catch (error) {
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
             return res.status(500).json({
                 error:`Unexpected server error (500) - try again or contact support`,
                 message: error.message
@@ -101,6 +105,7 @@ export class CartsController{
                 })
             }
         }catch(error){
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
             return res.status(500).json({
                 error:`Unexpected server error (500) - try again or contact support`,
                 message: error.message
@@ -139,6 +144,7 @@ export class CartsController{
                 }
             }  
         }catch(error){
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
             return res.status(500).json({
                 error:`Unexpected server error (500) - try again or contact support`,
                 message: error.message
@@ -158,6 +164,7 @@ export class CartsController{
                 cartEditDetails
             })
         }catch(error){  
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
             return res.status(500).json({
                 error:`Unexpected server error (500) - try again or contact support`,
                 message: error.message
@@ -236,10 +243,10 @@ export class CartsController{
                     ERROR_CODES.INTERNAL_SERVER_ERROR
                 ))
             }
-
             return res.status(200).json({ updatedCart });
         }catch(error){
-            next(error)
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
+            return next(error)
         }  
   
     }
@@ -265,6 +272,7 @@ export class CartsController{
                 payload:deletedCart
             })
         } catch (error) {
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
             return res.status(500).json({
                 error:`Error 500 Server failed unexpectedly, please try again later`,
                 message: `${error.message}`
@@ -309,6 +317,7 @@ export class CartsController{
                 })
             }
         }catch(error){
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
             return res.status(500).json({
                 error:`Error 500 Server failed unexpectedly, please try again later`,
                 message: `${error.message}`
@@ -327,6 +336,7 @@ export class CartsController{
                 payload:deletedProductInCart
             })
         } catch (error) {
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
             return res.status(500).json({
                 error:`Error 500 Server failed unexpectedly, please try again later`,
                 message: `${error.message}`
@@ -396,11 +406,17 @@ export class CartsController{
                  <h4>Gracias y Sigue comprando con nosotros!!</h4>
                 `              
             )
-            console.log("emailSent Object",emailSent)
+            req.logger.info("An email was sent to the client",emailSent)
+
             //nota... siempre acepta el envio -- como manejar el retorno posterior de DNS no encontrado?
-            if(emailSent.accepted.length>0){console.log('mail enviado!!')}else{console.log('Hubo un Error, el correo del usuario no aceptó el email enviado')}
+            if(emailSent.accepted.length>0){
+                req.logger.info("mail sent successfully - accepted by DNS")
+            }else{
+                req.logger.error("Email sent did not reach destination. Clients mail DNS rejected the package")
+            }
             return res.status(200).json({payload:ticketCreated})
         }catch(error){
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
             return res.status(500).json({
                 error:`Error 500 Server failed unexpectedly, please try again later`,
                 message: `${error.message}`
@@ -425,6 +441,7 @@ export class CartsController{
             const matchingTicket = await ticketsService.getPurchaseTicket({_id:tid})
             return res.status(200).json({payload: matchingTicket})
         } catch (error) {
+            req.logger.error('Server Error 500',new reqLoggerDTO(req,error)) 
             return res.status(500).json({
                 error:`Error 500 Server failed unexpectedly, please try again later`,
                 message: `${error.message}`
